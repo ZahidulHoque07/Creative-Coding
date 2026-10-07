@@ -1,0 +1,8 @@
+ideas:
+- Visualisation for the last 100 songs i have listened to
+- These will be unique songs
+- How long was listened to, emotion, what i was doing at the time, danceability (?), popularity, etc.
+
+- How many times i drank water
+- What was happening? with a meal? at the computer? at home? with a snack? how many glasses at a time? 
+
