@@ -1,1 +1,1 @@
-This is a project for Creative Coding 2026
+This is my project for the Dear Data module in Creative Coding 2026. For the project, I have to collect 100 pieces of data about a subject of my choice and use Processing to create a visualisation of that data.

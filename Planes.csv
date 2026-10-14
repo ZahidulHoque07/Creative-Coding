@@ -1,0 +1,100 @@
+Date,Scheduled Time,Departure Time,Destination,Aircraft,Airline
+09/10/26,11:30,11:59,Edinburgh (EDI),E190,British Airways
+09/10/26,11:35,12:04,Luxembourg (LUX),DH8D,Luxair
+09/10/26,11:45,11:53,Zurich (ZRH),E190,British Airways
+09/10/26,11:45,12:02,San Sebastian (EAS),E190,British Airways
+09/10/26,12:25,12:48,Belfast (BHD),E190,British Airways
+09/10/26,12:45,13:15,Rotterdam (RTM),E190,British Airways
+09/10/26,13:10,13:29,Zurich (ZRH),E290,Helvetic
+09/10/26,13:25,13:53,Berlin (BER),E190,British Airways
+09/10/26,13:25,14:20,Milan (LIN),E190,British Airways
+09/10/26,13:35,13:55,Amsterdam (AMS),E190,British Airways
+09/10/26,13:40,14:06,Athens (ATH),E550,FlexJet
+09/10/26,13:45,14:26,Milan (LIN),A220,iTA Airways
+09/10/26,13:55,14:15,Dublin (DUB),E190,British Airways
+09/10/26,14:05,14:57,Edinburgh (EDI),E190,British Airways
+09/10/26,14:15,14:54,Glasgow (GLA),E190,British Airways
+09/10/26,14:45,15:03,Dublin (DUB),E190,British Airways
+09/10/26,15:00,15:09,Belfast (BHD),E190,British Airways
+09/10/26,15:20,15:36,Luxembourg (LUX),DH8D,Luxair
+09/10/26,15:30,???,Guernsey (GCI),ATR72,Aurigny
+09/10/26,15:30,17:04,Glasgow (GLA),E190,British Airways
+09/10/26,15:30,16:03,Amsterdam (AMS),E190,British Airways
+12/10/26,06:45,07:21,Dublin (DUB),E190,British Airways
+12/10/26,06:45,06:46,Milan (LIN),A220,ITA Airways
+12/10/26,06:55,06:52,Glasgow (GLA),E190,British Airways
+12/10/26,07:00,07:08,Edinburgh (EDI),E190,British Airways
+12/10/26,07:00,07:04,Milan (LIN),E190,British Airways
+12/10/26,07:00,07:00,Rotterdam (RTM),E190,British Airways
+12/10/26,07:05,07:46,Zurich (ZRH),E190,British Airways
+12/10/26,07:10,07:18,Amsterdam (AMS),E190,British Airways
+12/10/26,07:35,07:55,Luxembourg (LUX),DH8D,Luxair
+12/10/26,08:00,08:10,Zurich (ZRH),E290,Helvetic Airways
+12/10/26,08:20,08:22,Luxembourg (LUX),E295,Luxair
+12/10/26,08:25,09:33,Amsterdam (AMS),E190,KLM
+12/10/26,08:25,08:30,Berlin (BER),E190,British Airways
+12/10/26,08:30,08:49,Guernsey (GCI),ATR72,Aurigny Air Services
+12/10/26,08:30,08:37,Nice (NCE),E190,British Airways
+12/10/26,08:35,08:55,Florence (FLR),E190,British Airways
+12/10/26,08:40,08:52,Edinburgh (EDI),E190,British Airways
+12/10/26,08:40,08:41,Amsterdam (AMS),E190,British Airways
+12/10/26,08:50,08:54,Belfast (BHD),E190,British Airways
+12/10/26,09:10,09:21,Dublin (DUB),E190,British Airways
+12/10/26,09:10,09:27,Milan (LIN),A220,ITA Airways
+12/10/26,09:15,10:08,Zurich (ZRH),E290,Helvetic Airways
+12/10/26,09:15,09:31,Frankfurt (FRA),E190,Air Dolomiti
+12/10/26,09:15,09:24,Malaga (AGP),E190,British Airways
+12/10/26,09:20,09:44,Amsterdam (AMS),E190,KLM
+12/10/26,09:35,09:51,Madrid (MAD),E190,British Airways
+12/10/26,09:40,10:05,San Sebastian (EAS),E190,British Airways
+12/10/26,10:00,10:07,Amsterdam (AMS),E190,KLM
+12/10/26,10:10,10:16,Rotterdam (RTM),E190,British Airways
+12/10/26,10:30,11:13,Bologna (BLQ),C68A,NetJets
+12/10/26,10:50,11:05,Amsterdam (AMS),E190,British Airways
+12/10/26,10:55,11:15,Palma de Mallorca (PMI),E190,British Airways
+12/10/26,10:55,11:04,Ibiza (IBZ),E190,British Airways
+13/10/26,06:45,07:11,Dublin (DUB),E190,British Airways
+13/10/26,06:45,06:46,Milan (LIN),A220,ITA Airways
+13/10/26,06:55,07:21,Glasgow (GLA),E190,British Airways
+13/10/26,07:00,07:49,Edinburgh (EDI),E190,British Airways
+13/10/26,07:00,07:43,Milan (LIN),E190,British Airways
+13/10/26,07:00,07:35,Rotterdam (RTM),E190,British Airways
+13/10/26,07:05,07:19,Zurich (ZRH),E190,British Airways
+13/10/26,07:10,07:37,Amsterdam (AMS),E190,British Airways
+13/10/26,08:10,08:24,Barcelona (BCN),E190,British Airways
+13/10/26,08:20,08:22,Luxembourg (LUX),E295,Luxair
+13/10/26,08:25,08:26,Amsterdam (AMS),E190,KLM
+13/10/26,08:25,08:36,Berlin (BER),E190,British Airways
+13/10/26,08:30,08:39,Guernsey (GCI),ATR72,Aurigny Air Services
+13/10/26,08:30,08:42,Nice (NCE),E190,British Airways
+13/10/26,08:40,08:44,Edinburgh (EDI),E190,British Airways
+13/10/26,08:40,10:34,Amsterdam (AMS),E190,British Airways
+13/10/26,09:10,09:18,Dublin (DUB),E190,British Airways
+13/10/26,09:10,09:22,Milan (LIN),A220,ITA Airways
+13/10/26,09:15,09:28,Zurich (ZRH),E290,Helvetic Airways
+13/10/26,09:15,10:23,Frankfurt (FRA),E190,Air Dolomiti
+13/10/26,09:15,09:20,Malaga (AGP),E190,British Airways
+13/10/26,09:20,09:24,Amsterdam (AMS),E190,KLM
+13/10/26,09:35,10:40,Madrid (MAD),E190,British Airways
+13/10/26,09:40,09:53,Florence (FLR),E190,British Airways
+13/10/26,09:45,09:55,Glasgow (GLA),E190,British Airways
+13/10/26,10:00,10:12,Amsterdam (AMS),E190,KLM
+13/10/26,10:50,11:04,Amsterdam (AMS),E190,British Airways
+13/10/26,10:55,11:29,Palma de Mallorca (PMI),E190,British Airways
+13/10/26,11:15,11:36,Florence (FLR),E190,British Airways
+13/10/26,11:30,11:59,Edinburgh (EDI),E190,British Airways
+13/10/26,11:45,11:45,Zurich (ZRH),E190,British Airways
+13/10/26,12:10,12:55,Berlin (BER),E190,British Airways
+13/10/26,12:15,12:15,Luxembourg (LUX),E295,Luxair
+13/10/26,12:25,12:27,Belfast (BHD),E190,British Airways
+13/10/26,13:10,13:20,Zurich (ZRH),E290,Helvetic Airways
+14/10/26,06:45,06:57,Dublin (DUB),E190,British Airways
+14/10/26,06:45,06:49,Milan (LIN),A220,ITA Airways
+14/10/26,06:55,07:04,Glasgow (GLA),E190,British Airways
+14/10/26,07:00,07:06,Edinburgh (EDI),E190,British Airways
+14/10/26,07:00,07:07,Milan (LIN),E190,British Airways
+14/10/26,07:05,07:09,Zurich (ZRH),E190,British Airways
+14/10/26,07:10,07:15,Amsterdam (AMS),E190,British Airways
+14/10/26,07:25,07:26,Naples (NAP),C56X,Silesia Air
+14/10/26,08:00,08:05,Luxembourg (LUX),DH8D,Luxair
+14/10/26,08:25,08:37,Amsterdam (AMS),E190,KLM
