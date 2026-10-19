@@ -8,3 +8,7 @@ ideas:
 
 - Planes departing from LCY
 - When were they departing? When were they scheduled to depart? What was the destination? What airline? What type of aircraft? 
+
+- Chess games played
+- What ELO rating was the opponent? What was the result, checkmate, resignation, draw, out of time? How long did the game last? What opening was played? How many moves were made? how much elo was gained or lost?
+

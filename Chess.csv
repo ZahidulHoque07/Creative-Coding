@@ -1,0 +1,33 @@
+timeClass,userColor,userRating,opponentRating,result,date,opening,startTime,moveCount
+blitz,white,110,218,checkmated,2026.10.06,Scandinavian Defense,Morning,15
+blitz,black,190,101,win,2026.10.06,King's Pawn Opening,Morning,20
+blitz,white,125,201,resigned,2026.10.06,King's Pawn Opening,Afternoon,21
+blitz,black,100,218,resigned,2026.10.06,Scotch Game,Afternoon,63
+bullet,black,320,296,abandoned,2026.10.06,King's Pawn Opening,Afternoon,6
+blitz,black,100,148,timeout,2026.10.06,Vienna Game,Evening,35
+blitz,black,100,119,checkmated,2026.10.06,Italian Game,Evening,31
+blitz,black,100,136,checkmated,2026.10.06,Queen's Pawn Opening,Evening,14
+blitz,white,135,100,win (resignation),2026.10.07,Bishop's Opening,Evening,12
+daily,white,333,400,win (checkmate),2026.10.14,Pirc Defense,Evening,34
+daily,white,333,400,win (checkmate),2026.10.15,Modern Defense,Evening,33
+blitz,black,167,119,win (timeout),2026.10.16,Four Knights Game,Evening,23
+blitz,white,198,165,win (checkmate),2026.10.16,Caro-Kann Defense,Evening,16
+blitz,white,172,228,checkmated,2026.10.16,Scandinavian Defense,Evening,13
+blitz,black,198,170,win (resignation),2026.10.16,Queen's Pawn Opening,Evening,24
+blitz,black,220,142,win (checkmate),2026.10.17,King's Pawn Opening,Morning,31
+blitz,white,198,240,timeout,2026.10.17,Sicilian Defense,Morning,39
+blitz,black,177,213,checkmated,2026.10.17,Bird's Opening,Morning,21
+blitz,white,197,169,win (checkmate),2026.10.17,Van't Kruijs Opening,Afternoon,42
+blitz,white,217,190,win (timeout),2026.10.18,Petrov's Defense,Afternoon,24
+blitz,white,229,100,win (abandonment),2026.10.18,Pirc Defense,Afternoon,20
+blitz,black,211,237,checkmated,2026.10.18,Van't Kruijs Opening,Evening,32
+blitz,black,193,201,resigned,2026.10.18,Ponziani Opening,Evening,30
+blitz,white,209,169,win (checkmate),2026.10.18,Pirc Defense,Evening,38
+daily,white,333,600,win (checkmate),2026.10.18,King's Pawn Opening,Evening,29
+blitz,black,195,267,timeout,2026.10.18,King's Gambit,Evening,30
+blitz,white,210,189,win (on time),2026.10.18,Four Knights Game,Evening,18
+blitz,black,196,225,timeout,2026.10.18,Van't Kruijs Opening,Evening,48
+blitz,white,196,193,timevsinsufficient,2026.10.18,French Defense,Evening,48
+blitz,black,182,187,timeout,2026.10.19,Bishop's Opening,Morning,35
+blitz,white,193,110,win (checkmate),2026.10.19,King's Pawn Opening,Morning,35
+blitz,white,202,100,win (checkmate),2026.10.19,Italian Game,Evening,58
