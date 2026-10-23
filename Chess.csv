@@ -1,9 +1,8 @@
-timeClass,userColor,userRating,opponentRating,result,date,opening,startTime,moveCount
+timeClass,userColor,userRating,opponentRating,result,result,opening,startTime,moveCount
 blitz,white,110,218,checkmated,2026.10.06,Scandinavian Defense,Morning,15
 blitz,black,190,101,win,2026.10.06,King's Pawn Opening,Morning,20
 blitz,white,125,201,resigned,2026.10.06,King's Pawn Opening,Afternoon,21
 blitz,black,100,218,resigned,2026.10.06,Scotch Game,Afternoon,63
-bullet,black,320,296,abandoned,2026.10.06,King's Pawn Opening,Afternoon,6
 blitz,black,100,148,timeout,2026.10.06,Vienna Game,Evening,35
 blitz,black,100,119,checkmated,2026.10.06,Italian Game,Evening,31
 blitz,black,100,136,checkmated,2026.10.06,Queen's Pawn Opening,Evening,14
@@ -28,3 +27,21 @@ blitz,white,196,193,timevsinsufficient,2026.10.18,French Defense,Evening,48
 blitz,black,182,187,timeout,2026.10.19,Bishop's Opening,Morning,35
 blitz,white,193,110,win (checkmate),2026.10.19,King's Pawn Opening,Morning,35
 blitz,white,202,100,win (checkmate),2026.10.19,Italian Game,Evening,58
+blitz,black,188,174,resigned,2026.10.20,Réti Opening,Morning,30
+blitz,white,176,203,timeout,2026.10.20,Vienna Game,Morning,34
+blitz,black,184,100,win (checkmate),2026.10.20,Réti Opening,Morning,4
+blitz,black,193,100,win (timeout),2026.10.20,Three Knights Opening,Morning,19
+blitz,white,204,174,win (abandonment),2026.10.20,Scandinavian Defense,Afternoon,4
+blitz,white,214,177,win (resignation),2026.10.20,French Defense,Afternoon,17
+blitz,black,204,232,checkmated,2026.10.20,King's Pawn Opening,Afternoon,6
+blitz,black,195,264,timeout,2026.10.20,Bird's Opening,Evening,57
+blitz,white,186,274,timeout,2026.10.20,Vienna Game,Evening,31
+blitz,white,177,211,timeout,2026.10.20,French Defense,Evening,36
+blitz,black,186,133,win (checkmate),2026.10.21,Queen's Pawn Opening,Morning,25
+blitz,black,177,232,resigned,2026.10.21,Bird's Opening,Afternoon,18
+blitz,white,186,145,win (timeout),2026.10.21,Four Knights Game,Afternoon,21
+blitz,white,195,146,win (resignation),2026.10.21,Nimzowitsch Defense,Afternoon,7
+blitz,black,203,100,win (checkmate),2026.10.21,Three Knights Opening,Afternoon,27
+blitz,white,203,188,agreed,2026.10.21,Three Knights Opening,Afternoon,5
+blitz,black,194,209,resigned,2026.10.21,Caro-Kann Defense,Evening,29
+blitz,black,194,205,timevsinsufficient,2026.10.21,Bird's Opening,Evening,58
