@@ -18,8 +18,8 @@ void setup() {
     lightSquare = color(220, 240, 255);
     darkSquare = color(80, 140, 200);
   } else {
-    lightSquare = color(200);
-    darkSquare = color(100);
+    lightSquare = color(255);
+    darkSquare = color(0);
   }
   board = new chessBoard(lightSquare, darkSquare);
 }
