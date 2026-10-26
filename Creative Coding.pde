@@ -2,8 +2,7 @@ void setup() {
 }
 
 void draw() {
-  println(power(2, 0));
-  noLoop();
+  
 }
 
 float power(float number, int power) {
