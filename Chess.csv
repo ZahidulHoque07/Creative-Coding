@@ -1,4 +1,4 @@
-timeClass,userColor,userRating,opponentRating,result,result,opening,startTime,moveCount
+timeClass,userColor,userRating,opponentRating,result,date,opening,startTime,moveCount
 blitz,white,110,218,checkmated,2026.10.06,Scandinavian Defense,Morning,15
 blitz,black,190,101,win,2026.10.06,King's Pawn Opening,Morning,20
 blitz,white,125,201,resigned,2026.10.06,King's Pawn Opening,Afternoon,21
