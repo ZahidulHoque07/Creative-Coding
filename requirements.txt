@@ -1,14 +1,3 @@
-ideas:
-- Last 100 songs i have listened to
-- These will be unique songs
-- How long was listened to, emotion, what i was doing at the time, danceability (?), popularity, etc.
-
-- How many times i drank water
-- What was happening? with a meal? at the computer? at home? with a snack? how many glasses at a time? 
-
-- Planes departing from LCY
-- When were they departing? When were they scheduled to depart? What was the destination? What airline? What type of aircraft? 
-
 - Chess games played
 - What ELO rating was the opponent? What was the result, checkmate, resignation, draw, out of time? How long did the game last? What opening was played? How many moves were made? how much elo was gained or lost?
 

@@ -37,11 +37,33 @@ blitz,black,204,232,checkmated,2026.10.20,King's Pawn Opening,Afternoon,6
 blitz,black,195,264,timeout,2026.10.20,Bird's Opening,Evening,57
 blitz,white,186,274,timeout,2026.10.20,Vienna Game,Evening,31
 blitz,white,177,211,timeout,2026.10.20,French Defense,Evening,36
-blitz,black,186,133,win (checkmate),2026.10.21,Queen's Pawn Opening,Morning,25
-blitz,black,177,232,resigned,2026.10.21,Bird's Opening,Afternoon,18
-blitz,white,186,145,win (timeout),2026.10.21,Four Knights Game,Afternoon,21
-blitz,white,195,146,win (resignation),2026.10.21,Nimzowitsch Defense,Afternoon,7
-blitz,black,203,100,win (checkmate),2026.10.21,Three Knights Opening,Afternoon,27
-blitz,white,203,188,agreed,2026.10.21,Three Knights Opening,Afternoon,5
-blitz,black,194,209,resigned,2026.10.21,Caro-Kann Defense,Evening,29
-blitz,black,194,205,timevsinsufficient,2026.10.21,Bird's Opening,Evening,58
+blitz,black,186,133,timeout,2026.10.21,Queen's Pawn Opening,Morning,25
+blitz,black,177,232,timeout,2026.10.21,Bird's Opening,Afternoon,18
+blitz,white,186,145,timeout,2026.10.21,Four Knights Game,Afternoon,21
+blitz,white,195,146,timeout,2026.10.21,Nimzowitsch Defense,Afternoon,7
+blitz,black,203,100,timeout,2026.10.21,Three Knights Opening,Afternoon,27
+blitz,white,203,188,timeout,2026.10.21,Three Knights Opening,Afternoon,5
+blitz,black,194,209,timeout,2026.10.21,Caro-Kann Defense,Evening,29
+blitz,black,194,205,timeout,2026.10.21,Bird's Opening,Evening,58
+blitz,black,186,224,checkmated,2026.10.23,King's Pawn Opening,Morning,20
+blitz,black,184,518,timeout,2026.10.23,Slav Defense,Morning,61
+blitz,black,192,181,win (timeout),2026.10.23,Petrov's Defense,Afternoon,19
+blitz,white,184,192,checkmated,2026.10.23,Scandinavian Defense,Afternoon,8
+blitz,white,192,100,win (timeout),2026.10.23,French Defense,Evening,4
+blitz,black,184,205,timeout,2026.10.23,Bishop's Opening,Evening,42
+blitz,white,176,181,timeout,2026.10.25,Three Knights Opening,Evening,37
+blitz,white,168,257,checkmated,2026.10.25,Pirc Defense,Evening,23
+blitz,black,176,137,win (timeout),2026.10.28,Tortoise Opening,Morning,23
+blitz,black,168,169,timeout,2026.10.28,King's Pawn Opening,Morning,39
+blitz,white,176,182,win (timeout),2026.10.28,King's Pawn Opening,Morning,30
+blitz,white,184,156,win (timeout),2026.10.28,French Defense,Evening,39
+blitz,black,176,198,checkmated,2026.10.30,King's Gambit,Morning,11
+blitz,white,184,153,win (resignation,2026.10.30,Nimzowitsch Defense,Morning,13
+blitz,black,192,159,win (abandonment),2026.11.03,Van 't Kruijs Opening,Morning,8
+blitz,black,184,225,checkmated,2026.11.03,Queen's Pawn Opening,Morning,37
+rapid,white,338,370,stalemate,2026.11.03,King's Pawn Opening,Morning,47
+blitz,white,184,182,timevsinsufficient,2026.11.04,Pirc Defense,Evening,53
+blitz,black,176,198,checkmated,2026.11.04,Ruy Lopez,Evening,28
+blitz,white,184,188,win (timeout),2026.11.04,Queen's Pawn Opening,Evening,44
+blitz,black,192,177,win (checkmate),2026.11.05,Center Game,Evening,21
+blitz,white,184,207,checkmated,2026.11.05,Four Knights Game,Evening,31

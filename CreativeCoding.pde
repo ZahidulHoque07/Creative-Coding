@@ -7,7 +7,8 @@ color darkSquare;
 int gameNumber;
 
 void setup() {
-  size(400, 400);
+  background(255);
+  size(400, 600);
   noStroke();
   lines = loadStrings("Chess.csv");
   textSize(20);
@@ -17,15 +18,13 @@ void setup() {
 
 void draw() {
   board.draw();
-  textAlign(CENTER,BOTTOM);
-  text(gameNumber, 37, 400);
+  text(gameNumber, 5, 395);
 }
 
-
-void mousePressed() {
-  if (mouseX > 200 && gameNumber < lines.length - 1) {
+void keyPressed() {
+  if (keyCode == RIGHT && gameNumber < lines.length - 1) {
     gameNumber++;
-  } else if (mouseX <= 200 && gameNumber > 1) {
+  } else if (keyCode == LEFT && gameNumber > 1) {
     gameNumber--;
   }
   boardUpdate();
@@ -47,4 +46,7 @@ void boardUpdate() {
   }
 
   board = new chessBoard(lightSquare, darkSquare);
+}
+
+void chessClock() {
 }
