@@ -8,6 +8,9 @@ int gameNumber;
 String playerColour;
 int moveCount;
 
+PImage[] pieces;
+String[] squares;
+
 PImage whitePawn;
 PImage whiteKnight;
 PImage whiteRook;
@@ -31,6 +34,39 @@ void setup() {
   lines = loadStrings("Chess.csv");
   textSize(20);
 
+  loadPieces();
+
+  gameNumber = 1;
+  boardUpdate();
+}
+
+void draw() {
+  background(255);
+
+  board.draw();
+
+  fill(0);
+  text("Game: " + gameNumber, 5, 420);
+  text("Moves: " + moveCount, 5, 440);
+
+  for (int i = 0; i < pieces.length; i++) {
+    drawPiece(squares[i], pieces[i]);
+  }
+  
+  drawPiece("e1", whiteKing);
+  drawPiece("e8", blackKing);
+}
+
+void keyPressed() {
+  if (keyCode == RIGHT && gameNumber < lines.length - 1) {
+    gameNumber++;
+  } else if (keyCode == LEFT && gameNumber > 1) {
+    gameNumber--;
+  }
+  boardUpdate();
+}
+
+void loadPieces() {
   whitePawn = loadImage("White Pawn.png");
   whiteKnight = loadImage("White Knight.png");
   whiteRook = loadImage("White Rook.png");
@@ -44,63 +80,6 @@ void setup() {
   blackBishop = loadImage("Black Bishop.png");
   blackKing = loadImage("Black King.png");
   blackQueen = loadImage("Black Queen.png");
-
-  gameNumber = 1;
-  boardUpdate();
-}
-
-void draw() {
-  background(255);
-  board.draw();
-  fill(0);
-  text("Game: " + gameNumber, 5, 420);
-  text("Moves: " + moveCount, 5, 440);
-  drawPiece("a2", whitePawn);
-  drawPiece("b2", whitePawn);
-  drawPiece("c2", whitePawn);
-  drawPiece("d2", whitePawn);
-  drawPiece("e2", whitePawn);
-  drawPiece("f2", whitePawn);
-  drawPiece("g2", whitePawn);
-  drawPiece("h2", whitePawn);
-
-  drawPiece("e1", whiteKing);
-  drawPiece("d1", whiteQueen);
-  drawPiece("a1", whiteRook);
-  drawPiece("h1", whiteRook);
-  drawPiece("b1", whiteKnight);
-  drawPiece("g1", whiteKnight);
-  drawPiece("c1", whiteBishop);
-  drawPiece("f1", whiteBishop);
-
-  drawPiece("a7", blackPawn);
-  drawPiece("b7", blackPawn);
-  drawPiece("c7", blackPawn);
-  drawPiece("d7", blackPawn);
-  drawPiece("e7", blackPawn);
-  drawPiece("f7", blackPawn);
-  drawPiece("g7", blackPawn);
-  drawPiece("h7", blackPawn);
-
-  drawPiece("e8", blackKing);
-  drawPiece("d8", blackQueen);
-  drawPiece("a8", blackRook);
-  drawPiece("h8", blackRook);
-  drawPiece("b8", blackKnight);
-  drawPiece("g8", blackKnight);
-  drawPiece("c8", blackBishop);
-  drawPiece("f8", blackBishop);
-
-  println(playerColour);
-}
-
-void keyPressed() {
-  if (keyCode == RIGHT && gameNumber < lines.length - 1) {
-    gameNumber++;
-  } else if (keyCode == LEFT && gameNumber > 1) {
-    gameNumber--;
-  }
-  boardUpdate();
 }
 
 void boardUpdate() {
@@ -121,6 +100,7 @@ void boardUpdate() {
   }
 
   board = new chessBoard(lightSquare, darkSquare);
+  generatePieces();
 }
 
 void drawPiece(String square, PImage piece) {
@@ -136,4 +116,96 @@ void drawPiece(String square, PImage piece) {
   float y = row * 50;
 
   image(piece, x, y, 50, 50);
+}
+
+int pieceValue(PImage piece) {
+  if (piece == whitePawn || piece == blackPawn) {
+    return 1;
+  } else if (piece == whiteKnight || piece == blackKnight) {
+    return 3;
+  } else if (piece == whiteBishop || piece == blackBishop) {
+    return 3;
+  } else if (piece == whiteRook || piece == blackRook) {
+    return 5;
+  } else if (piece == whiteQueen || piece == blackQueen) {
+    return 9;
+  }
+
+  return 0;
+}
+
+void generatePieces() {
+  int remaining = moveCount;
+
+  pieces = new PImage[moveCount];
+  squares = new String[moveCount];
+
+  int count = 0;
+
+  while (remaining > 0) {
+    int choice = int(random(5));
+    PImage piece;
+
+    if (choice == 0) {
+      piece = whitePawn;
+    } else if (choice == 1) {
+      piece = whiteKnight;
+    } else if (choice == 2) {
+      piece = whiteBishop;
+    } else if (choice == 3) {
+      piece = whiteRook;
+    } else {
+      piece = whiteQueen;
+    }
+
+    int value = pieceValue(piece);
+
+    if (value <= remaining) {
+      pieces[count] = piece;
+
+      String square;
+
+      do {
+        char file = (char) int(random(8) + 'a');
+        int rank = int(random(8)) + 1;
+
+        square = file + str(rank);
+      } while (squareOccupied(square, count));
+      squares[count] = square;
+
+      remaining -= value;
+      count++;
+    }
+  }
+
+  PImage[] temp = new PImage[count];
+
+  for (int i = 0; i < count; i++) {
+    temp[i] = pieces[i];
+  }
+
+  pieces = temp;
+
+  String[] tempSquares = new String[count];
+
+  for (int i = 0; i < count; i++) {
+    tempSquares[i] = squares[i];
+  }
+
+  squares = tempSquares;
+}
+
+boolean squareOccupied(String square, int count) {
+
+  if (square.equals("e1") || square.equals("e8")) {
+    return true;
+  }
+
+  for (int i = 0; i < count; i++) {
+    if (squares[i].equals(square)) {
+      return true;
+    }
+  }
+
+  return false;
 }
