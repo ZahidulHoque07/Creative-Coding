@@ -3,31 +3,13 @@ ChessGame currentGame;
 String [] lines;
 int gameNumber;
 
-PImage boardImage;
-PImage morningBoard;
-PImage afternoonBoard;
-PImage eveningBoard;
+PImage boardImage, morningBoard, afternoonBoard, eveningBoard;
 
-PImage whitePawn;
-PImage whiteKnight;
-PImage whiteRook;
-PImage whiteBishop;
-PImage whiteKing;
-PImage whiteQueen;
-PImage whiteKingCheckmate;
+PImage whitePawn, whiteKnight, whiteRook, whiteBishop, whiteKing, whiteQueen, whiteKingCheckmate;
 
-PImage blackPawn;
-PImage blackKnight;
-PImage blackRook;
-PImage blackBishop;
-PImage blackKing;
-PImage blackQueen;
-PImage blackKingCheckmate;
+PImage blackPawn, blackKnight, blackRook, blackBishop, blackKing, blackQueen, blackKingCheckmate;
 
-PImage checkmated;
-PImage winner;
-PImage timeout;
-PImage resigned;
+PImage checkmated, winner, timeout, resigned;
 
 
 // Chess pieces source: Cburnett chess set, by Colin M. L. Burnett
@@ -36,7 +18,7 @@ PImage resigned;
 
 void setup() {
   background(255);
-  size(400, 450);
+  size(400, 400);
   noStroke();
   lines = loadStrings("Chess.csv");
   textSize(20);
@@ -50,9 +32,7 @@ void setup() {
 void draw() {
   background(255);
   image(boardImage, 0, 0);
-  fill(0);
-  text("Game: " + gameNumber, 5, 420);
-  text("Moves: " + currentGame.moveCount, 5, 440);
+  text(gameNumber, 5, 395);
   currentGame.display();
 }
 
@@ -95,6 +75,7 @@ void loadPieces() {
 
 void boardUpdate() {
   String [] tokens = split(lines[gameNumber], ",");
+  randomSeed(gameNumber);
   currentGame = new ChessGame(tokens[7], tokens[1], int(tokens[8]), tokens[4]);
 
 

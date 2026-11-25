@@ -28,16 +28,18 @@ class ChessGame {
       int choice = int(random(5));
       PImage piece;
 
+      boolean white = random(2) < 1;
+
       if (choice == 0) {
-        piece = whitePawn;
+        piece = white ? whitePawn : blackPawn;
       } else if (choice == 1) {
-        piece = whiteKnight;
+        piece = white ? whiteKnight : blackKnight;
       } else if (choice == 2) {
-        piece = whiteBishop;
+        piece = white ? whiteBishop : blackBishop;
       } else if (choice == 3) {
-        piece = whiteRook;
+        piece = white ? whiteRook : blackRook;
       } else {
-        piece = whiteQueen;
+        piece = white? whiteQueen : blackQueen;
       }
 
       int value = pieceValue(piece);
@@ -84,7 +86,7 @@ class ChessGame {
 
   boolean squareOccupied(String square, int count) {
 
-    if (square.equals("e1") || square.equals("e8")) {
+    if (square.equals("e1") || square.equals("e8") || square.equals("a1")) {
       return true;
     }
 
