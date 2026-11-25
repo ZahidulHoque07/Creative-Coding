@@ -1,6 +1,6 @@
 timeClass,userColor,userRating,opponentRating,result,date,opening,startTime,moveCount
 blitz,white,110,218,checkmated,2026.10.06,Scandinavian Defense,Morning,15
-blitz,black,190,101,win,2026.10.06,King's Pawn Opening,Morning,20
+blitz,black,190,101,win (checkmate),2026.10.06,King's Pawn Opening,Morning,20
 blitz,white,125,201,resigned,2026.10.06,King's Pawn Opening,Afternoon,21
 blitz,black,100,218,resigned,2026.10.06,Scotch Game,Afternoon,63
 blitz,black,100,148,timeout,2026.10.06,Vienna Game,Evening,35

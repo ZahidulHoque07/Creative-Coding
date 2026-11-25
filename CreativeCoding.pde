@@ -14,6 +14,7 @@ PImage whiteRook;
 PImage whiteBishop;
 PImage whiteKing;
 PImage whiteQueen;
+PImage whiteKingCheckmate;
 
 PImage blackPawn;
 PImage blackKnight;
@@ -21,6 +22,13 @@ PImage blackRook;
 PImage blackBishop;
 PImage blackKing;
 PImage blackQueen;
+PImage blackKingCheckmate;
+
+PImage checkmated;
+PImage winner;
+PImage timeout;
+PImage resigned;
+
 
 // Chess pieces source: Cburnett chess set, by Colin M. L. Burnett
 // Source: https://github.com/lichess-org/lila/tree/master/public/piece/cburnett
@@ -34,7 +42,7 @@ void setup() {
   textSize(20);
 
   loadPieces();
-  
+
   gameNumber = 1;
   boardUpdate();
 }
@@ -68,6 +76,8 @@ void loadPieces() {
   whiteBishop = loadImage("White Bishop.png");
   whiteKing = loadImage("White King.png");
   whiteQueen = loadImage("White Queen.png");
+  whiteKingCheckmate = loadImage("White King Checkmate.png");
+
 
   blackPawn = loadImage("Black Pawn.png");
   blackKnight = loadImage("Black Knight.png");
@@ -75,11 +85,17 @@ void loadPieces() {
   blackBishop = loadImage("Black Bishop.png");
   blackKing = loadImage("Black King.png");
   blackQueen = loadImage("Black Queen.png");
+  blackKingCheckmate = loadImage("Black King Checkmate.png");
+
+  checkmated = loadImage("Checkmated.png");
+  winner = loadImage("Winner.png");
+  timeout = loadImage("Timeout.png");
+  resigned = loadImage("Resigned.png");
 }
 
 void boardUpdate() {
   String [] tokens = split(lines[gameNumber], ",");
-  currentGame = new ChessGame(tokens[7], tokens[1], int(tokens[8]));
+  currentGame = new ChessGame(tokens[7], tokens[1], int(tokens[8]), tokens[4]);
 
 
   if (currentGame.time.equals("Morning")) {
